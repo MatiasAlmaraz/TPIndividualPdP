@@ -44,7 +44,10 @@ class Asistente {
 //Pero fan tiene siempre el mismo comportamiento por lo que puede ser directamente un objeto
 //Asistente usa a descuento() como si fueran interfaces
 class Vip {
-  var property descuento
+  var descuento
+
+  //Para que no pueda modificarlo cualquiera
+  method descuento() = descuento
 
   method bonificar() {
     descuento += 0.01

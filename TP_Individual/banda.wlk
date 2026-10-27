@@ -1,10 +1,7 @@
-
-
-
 //Creo la superclase Banda de la cual van a heredar comportamiento y atributos los otros
 // tipos de bandas
 class Banda {
-  const nombre
+  const property nombre
   
   method canon() = 1000000
   
